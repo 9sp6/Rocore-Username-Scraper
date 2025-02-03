@@ -20,16 +20,15 @@ Before you begin, ensure you have the following:
 - **Python 3.8+** installed on your system.
 - Familiarity with JSON files for configuration.
 
-### Step 1: Edit `configuration.json`
+### Step 1: Edit `Configuration.json`
 
-In the `configuration.json` file, you need to configure the **ID ranges** for your username search. The default configuration will look something like this:
+In the `Configuration.json` file, you need to configure the **ID ranges** for your username search, then you need to configure the output folder, The default configuration will look something like this:
 
 ```json
 {
-    "startID": 1000000,
-    "endID": 1000100
+    "start_id": 1000000,
+    "end_id": 5000000,
+    "output_folder": "ScrapedUsernamesFolder"
 }
 
-### Step 2: Run the runme
-
-In the Rocore Scraper folder, and after you changed the ID ranges, run the runme.bat file, itll install all requirements and boom it automatically starts scraping.
+### Simpy run the runme.bat and let the requirements install and your all done, your welcome!
